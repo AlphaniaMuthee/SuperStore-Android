@@ -41,7 +41,7 @@ public class MerchantActivity extends AppCompatActivity implements View.OnClickL
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-        }
+
         if (id == R.id.add) {
             Intent intent = new Intent(MerchantActivity.this, AdminInviteActivity.class);
             startActivity(intent);
