@@ -34,7 +34,17 @@ dependencies {
 
     //Design
     implementation 'com.google.android.material:material:1.1.0'
-    implementation 'androidx.navigation:navigation-fragment-ktx:2.2.2'
-    implementation 'androidx.navigation:navigation-ui-ktx:2.2.2'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.3.0'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.3.0'
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
+
+//    //API
+//    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+//    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+//    implementation 'com.squareup.okhttp3:okhttp:4.2.1'
+//    implementation 'se.akerfeldt:okhttp-signpost:1.1.0'
+//
+//    //Graphs
+//    implementation 'com.jjoe64:graphview:4.2.2'
+//    implementation 'com.android.support:multidex:1.0.3'
 }
